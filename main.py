@@ -1,6 +1,9 @@
 ####################--- METODY OPTYMALIZACJI ---####################
-#------------------------------------------------------------------#
+# ------------------------------------------------------------------#
 ##################--- APPROXIMATE LINE SEARCH ---###################
 
-print('hello world - init commit')
+import numpy as np
+import matplotlib.pyplot as plt
+
+from functions import booth_function, rosenbrock_function, three_hump_camel_function
 
