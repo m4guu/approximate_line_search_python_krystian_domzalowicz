@@ -1,5 +1,4 @@
 ## SECOND WOLFE CONDITION ##
-
 import numpy as np
 
 
