@@ -1,4 +1,4 @@
-## SECOND WOLFE CONDITION ##
+## SEC
 import numpy as np
 
 
@@ -17,8 +17,8 @@ def second_wolfe_condition(gf, x, d, alpha, sigma):
     - True, jeśli warunek jest spełniony
     - False, w przeciwnym przypadku
     """
-    grad_current = gf(x)           # Gradient funkcji w aktualnym położeniu
-    grad_next = gf(x + alpha * d)  # Gradient funkcji w nowym położeniu
+    grad_current = gf(x)
+    grad_next = gf(x + alpha * d)
 
     # Warunek krzywizny
     return np.dot(grad_next, d) >= sigma * np.dot(grad_current, d)
