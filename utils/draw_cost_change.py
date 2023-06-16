@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-def draw_cost_change(f, x0, points):
+def draw_cost_change(f, points):
     iterations = len(points)
     costs = [f(x) for x in points]
 

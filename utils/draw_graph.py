@@ -14,10 +14,6 @@ def draw_graph(f, x0, points, xlim, ylim):
     # Wykres konturów funkcji
     plt.contour(X, Y, Z, levels=50)
 
-    # Wykres powierzchni 3D
-    # fig, ax = plt.subplots(subplot_kw={"projection": "3d"})
-    # surf = ax.plot_surface(X, Y, Z, cmap=cm.coolwarm, linewidth=0, antialiased=False)
-
     # wykres punktu startowego
     plt.plot(x0[0], x0[1], 'ro', label='Start Point')
     plt.text(x0[0], x0[1], 'Start', ha='right')

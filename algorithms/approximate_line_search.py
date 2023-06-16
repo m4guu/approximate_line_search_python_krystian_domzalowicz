@@ -5,7 +5,7 @@ from .second_wolfe_condition import second_wolfe_condition
 from .backtracking_line_search import backtracking_line_search
 
 
-def approximate_line_search(f, gf, x, d, alpha_init=5, beta=1e-1, sigma=0.1, max_iter=25):
+def approximate_line_search(f, gf, x, d, alpha_init=5, beta=1e-1, sigma=0.9, max_iter=25):
     """
        Approximate line search - przybliżone wyszukiwanie linii.
 

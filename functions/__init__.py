@@ -1,3 +1,3 @@
-from .rosenbrock_function import rosenbrock_function, rosenbrock_gradient
-from .booth_function import booth_function, booth_gradient
-from .three_hump_camel_function import three_hump_camel_function,three_hump_camel_gradient
+from .rosenbrock_function import rosenbrock_function, rosenbrock_gradient, rosenbrock_function_with_penalty, rosenbrock_gradient_with_penalty
+from .booth_function import booth_function, booth_gradient, booth_with_penalty, booth_with_penalty_gradient, penalty_function, constraint
+from .three_hump_camel_function import three_hump_camel_function, three_hump_camel_gradient, camel_with_penalty, camel_with_penalty_gradient
